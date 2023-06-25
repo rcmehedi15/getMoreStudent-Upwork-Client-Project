@@ -4,6 +4,7 @@ import HeroArea from './HeroArea/HeroArea';
 import Video from './Video/VIdeo';
 import LineBorderText from './LineBorderText/LineBorderText';
 import DanceStudioChallenges from './DanceStudioChallenges/DanceStudioChallenges';
+import GoToImg from './GoToImg/GoToImg';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
            <Video/>
            <LineBorderText />
            <DanceStudioChallenges />
+           <GoToImg />
         </Container>
     );
 };

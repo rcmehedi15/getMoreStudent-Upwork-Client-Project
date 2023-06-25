@@ -8,10 +8,11 @@ import GoToImg from './GoToImg/GoToImg';
 import TurnYourDance from './TurnYourDance/TurnYourDance';
 import DanceStudioOwner from './DanceStudioOwner/DanceStudioOwner';
 import Benefits from './Benefits/Benefits';
+import ExploreOurClients from './ExploreOurClients/ExploreOurClients';
 
 const Home = () => {
     return (
-        <Container>
+        <>
            <HeroArea />
            <Video/>
            <LineBorderText />
@@ -20,7 +21,8 @@ const Home = () => {
            <TurnYourDance />
            <DanceStudioOwner />
            <Benefits />
-        </Container>
+           <ExploreOurClients />
+        </>
     );
 };
 

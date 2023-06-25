@@ -74,8 +74,8 @@ const Benefits = () => {
                     </div>
                 </div>
                 <div className='flex justify-center items-center'>
-                <button className="btn  bg-[#FD5B16] text-white hover:bg-[#0D2E63]">Book a Call</button>
-            </div>
+                    <button className="btn  bg-[#FD5B16] text-white hover:bg-[#0D2E63]">Book a Call</button>
+                </div>
             </div>
         </Container>
     );

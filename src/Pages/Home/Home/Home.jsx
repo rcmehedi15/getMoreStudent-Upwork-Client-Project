@@ -5,6 +5,8 @@ import Video from './Video/VIdeo';
 import LineBorderText from './LineBorderText/LineBorderText';
 import DanceStudioChallenges from './DanceStudioChallenges/DanceStudioChallenges';
 import GoToImg from './GoToImg/GoToImg';
+import TurnYourDance from './TurnYourDance/TurnYourDance';
+import DanceStudioOwner from './DanceStudioOwner/DanceStudioOwner';
 
 const Home = () => {
     return (
@@ -14,6 +16,8 @@ const Home = () => {
            <LineBorderText />
            <DanceStudioChallenges />
            <GoToImg />
+           <TurnYourDance />
+           <DanceStudioOwner />
         </Container>
     );
 };

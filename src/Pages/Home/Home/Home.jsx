@@ -9,6 +9,7 @@ import TurnYourDance from './TurnYourDance/TurnYourDance';
 import DanceStudioOwner from './DanceStudioOwner/DanceStudioOwner';
 import Benefits from './Benefits/Benefits';
 import ExploreOurClients from './ExploreOurClients/ExploreOurClients';
+import WeOffer from './WeOffer/WeOffer';
 
 const Home = () => {
     return (
@@ -22,6 +23,7 @@ const Home = () => {
            <DanceStudioOwner />
            <Benefits />
            <ExploreOurClients />
+           <WeOffer />
         </>
     );
 };

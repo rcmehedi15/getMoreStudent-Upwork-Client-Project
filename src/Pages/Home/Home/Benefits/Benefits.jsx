@@ -9,7 +9,7 @@ const Benefits = () => {
                 <div className="hero  min-h-full">
                     <div className="hero-content text-center">
                         <div className="max-w-2xl">
-                            <h1 className="text-4xl font-bold text-[#0D2E63] mt-12">Benefits Of Working With Us:</h1>
+                            <h1 className="text-4xl font-bold text-[#0D2E63] mt-4">Benefits Of Working With Us:</h1>
                             <ol className='text-justify my-4'>
                                 <div>
                                     <li type="1"><b> Unmatched Track Record:</b> We're privileged to hold the position of number 1 in our industry for the most client video testimonials, exceeding 30 raving reviews and counting.</li>
@@ -37,39 +37,41 @@ const Benefits = () => {
                     </div>
                 </div>
                 {/* photos  */}
-                <div className="border-4 border-[#0D2E63]   p-4">
-                    <div className="flex ">
-                        <div className="rounded-full bg-g ray-800 w-16 h-16 overflow-hidden item">
-                            <img src={photoImg1} alt="Photo" className="w-full h-full object-cover" />
-                        </div>
+                <div className='container mx-auto max-w-2xl'>
+                    <div className="border-4 border-[#0D2E63]  p-4">
+                        <div className="flex ">
+                            <div className="rounded-full bg-g ray-800 w-16 h-16 overflow-hidden item">
+                                <img src={photoImg1} alt="Photo" className="w-full h-full object-cover" />
+                            </div>
 
-                        <div className="w-3/4 pl-4">
-                            <h1 className="text-xl font-bold mb-2">John Doe</h1>
-                            <p className="text-gray-700">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu rutrum est, ac
-                                lobortis quam. Nullam aliquam semper eros in convallis. Mauris volutpat metus at
-                                imperdiet tristique. Nulla et dapibus nulla. Donec et mauris vel mi feugiat
-                                vulputate. Suspendisse potenti.
-                            </p>
+                            <div className="w-3/4 pl-4">
+                                <h1 className="text-xl font-bold mb-2">John Doe</h1>
+                                <p className="text-gray-700">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu rutrum est, ac
+                                    lobortis quam. Nullam aliquam semper eros in convallis. Mauris volutpat metus at
+                                    imperdiet tristique. Nulla et dapibus nulla. Donec et mauris vel mi feugiat
+                                    vulputate. Suspendisse potenti.
+                                </p>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="border-4 border-[#0D2E63]  my-4 p-4">
-                    <div className="flex ">
-                        <div className="rounded-full bg-gray-800 w-16 h-16 overflow-hidden item">
-                            <img src={photoImg2} alt="Photo" className="w-full h-full object-cover" />
-                        </div>
+                    <div className="border-4 border-[#0D2E63]  my-4 p-4">
+                        <div className="flex ">
+                            <div className="rounded-full bg-gray-800 w-16 h-16 overflow-hidden item">
+                                <img src={photoImg2} alt="Photo" className="w-full h-full object-cover" />
+                            </div>
 
-                        <div className="w-3/4 pl-4">
-                            <h1 className="text-xl font-bold mb-2">John Doe</h1>
-                            <p className="text-gray-700">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu rutrum est, ac
-                                lobortis quam. Nullam aliquam semper eros in convallis. Mauris volutpat metus at
-                                imperdiet tristique. Nulla et dapibus nulla. Donec et mauris vel mi feugiat
-                                vulputate. Suspendisse potenti.
-                            </p>
+                            <div className="w-3/4 pl-4">
+                                <h1 className="text-xl font-bold mb-2">John Doe</h1>
+                                <p className="text-gray-700">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eu rutrum est, ac
+                                    lobortis quam. Nullam aliquam semper eros in convallis. Mauris volutpat metus at
+                                    imperdiet tristique. Nulla et dapibus nulla. Donec et mauris vel mi feugiat
+                                    vulputate. Suspendisse potenti.
+                                </p>
 
+                            </div>
                         </div>
                     </div>
                 </div>

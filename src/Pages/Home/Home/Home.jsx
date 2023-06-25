@@ -7,6 +7,7 @@ import DanceStudioChallenges from './DanceStudioChallenges/DanceStudioChallenges
 import GoToImg from './GoToImg/GoToImg';
 import TurnYourDance from './TurnYourDance/TurnYourDance';
 import DanceStudioOwner from './DanceStudioOwner/DanceStudioOwner';
+import Benefits from './Benefits/Benefits';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
            <GoToImg />
            <TurnYourDance />
            <DanceStudioOwner />
+           <Benefits />
         </Container>
     );
 };

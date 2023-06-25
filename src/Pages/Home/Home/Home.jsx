@@ -3,6 +3,7 @@ import Container from '../Shared/FixedSize/Container';
 import HeroArea from './HeroArea/HeroArea';
 import Video from './Video/VIdeo';
 import LineBorderText from './LineBorderText/LineBorderText';
+import DanceStudioChallenges from './DanceStudioChallenges/DanceStudioChallenges';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
            <HeroArea />
            <Video/>
            <LineBorderText />
+           <DanceStudioChallenges />
         </Container>
     );
 };
